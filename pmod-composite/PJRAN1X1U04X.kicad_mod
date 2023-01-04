@@ -1,5 +1,5 @@
 
-(module SWITCHCRAFT_PJRAN1X1U04X (layer F.Cu) (tedit 63B60500)
+(footprint SWITCHCRAFT_PJRAN1X1U04X (layer F.Cu) (tedit 63B600E6)
   (descr "")
   (fp_text reference REF** (at -1.825 -8.635 0) (layer F.SilkS)
     (effects (font (size 1.0 1.0) (thickness 0.15)))
