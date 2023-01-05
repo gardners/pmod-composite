@@ -12,3 +12,5 @@ to smooth out the switching noise from driving the pins at 540MHz
 signal.  Should work fine as an audio DAC, too.
 
 Design is all hole-through for easy assembly at home.
+
+![3d render of PCB](pmod-composite.png)
