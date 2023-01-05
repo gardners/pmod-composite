@@ -1855,7 +1855,7 @@
     (uuid e502d1d5-04b0-4d4b-b5c3-8c52d09668e7)
     (property "Reference" "J1" (id 0) (at 43.18 33.02 0))
     (property "Value" "Conn_02x06_Top_Bottom" (id 1) (at 43.18 35.56 0))
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Vertical" (id 2) (at 41.91 44.45 0)
+    (property "Footprint" "00Project:PMOD" (id 2) (at 41.91 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 44.45 0)
@@ -2134,7 +2134,7 @@
       (reference "C12") (unit 1) (value "10u") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
     (path "/e502d1d5-04b0-4d4b-b5c3-8c52d09668e7"
-      (reference "J1") (unit 1) (value "Conn_02x06_Top_Bottom") (footprint "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_02x06_Top_Bottom") (footprint "00Project:PMOD")
     )
     (path "/aed217f9-7149-4c90-ba0b-806c9d0d0e41"
       (reference "J2") (unit 1) (value "PJRAN1X1U04X") (footprint "00Project:SWITCHCRAFT_PJRAN1X1U04X")
