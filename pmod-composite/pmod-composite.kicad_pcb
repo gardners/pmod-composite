@@ -101,7 +101,7 @@
   (net 24 "Net-(R14-Pad1)")
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp 005f7bba-a8a9-4e07-ad6d-de2e5146ff30)
+    (tedit 63B61BC1) (tstamp 005f7bba-a8a9-4e07-ad6d-de2e5146ff30)
     (at 44.196 75.732 -90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -143,10 +143,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp 01cf62da-95ed-4a12-955e-985e346f552c)
+    (tedit 63B61B6C) (tstamp 01cf62da-95ed-4a12-955e-985e346f552c)
     (at 57.912 48.26 -90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -183,6 +188,11 @@
     (pad "2" thru_hole circle (at 2.5 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp bc3b55ee-da4a-47e7-827f-dc787b3d7436))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -237,7 +247,7 @@
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp 0e70e462-56bb-4e9b-b060-51e913ae478e)
+    (tedit 63B61B5D) (tstamp 0e70e462-56bb-4e9b-b060-51e913ae478e)
     (at 30.988 51.308 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -274,6 +284,11 @@
     (pad "2" thru_hole circle (at 2.5 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 693f6a68-d06a-4d5a-9783-5457f185ef44))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -507,7 +522,7 @@
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp 2e62b91a-2d0f-4dcf-af1c-cbb95a528a18)
+    (tedit 63B61B87) (tstamp 2e62b91a-2d0f-4dcf-af1c-cbb95a528a18)
     (at 30.988 65.532 -90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -548,10 +563,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" (layer "F.Cu")
-    (tedit 5AE59B05) (tstamp 4ac39e6e-a6ad-43fd-a8a9-7dcc022ec2a8)
+    (tedit 63B61E49) (tstamp 4ac39e6e-a6ad-43fd-a8a9-7dcc022ec2a8)
     (at 52.832 64.008 -90)
     (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.3*2.2mm^2, Vishay, IM-1, http://www.vishay.com/docs/34030/im.pdf")
     (tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 5.3mm diameter 2.2mm Vishay IM-1")
@@ -597,10 +617,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp 53f47836-096c-448f-8c94-f2235e5557d3)
+    (tedit 63B61BE3) (tstamp 53f47836-096c-448f-8c94-f2235e5557d3)
     (at 55.372 81.28)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -642,10 +667,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" (layer "F.Cu")
-    (tedit 5AE59B05) (tstamp 557bb52d-e17c-47df-b43b-bdb1b2282920)
+    (tedit 63B61E05) (tstamp 557bb52d-e17c-47df-b43b-bdb1b2282920)
     (at 36.068 64.008 -90)
     (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.3*2.2mm^2, Vishay, IM-1, http://www.vishay.com/docs/34030/im.pdf")
     (tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 5.3mm diameter 2.2mm Vishay IM-1")
@@ -691,10 +721,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" (layer "F.Cu")
-    (tedit 63B6145D) (tstamp 56736959-a6ac-419b-abfb-5783ac2576e0)
+    (tedit 63B61D8E) (tstamp 56736959-a6ac-419b-abfb-5783ac2576e0)
     (at 50.8 31.496 -90)
     (descr "Through hole straight pin header, 2x06, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x06 2.54mm double row")
@@ -758,7 +793,12 @@
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x06_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 0 0))
+    )
+    (model "${KIPRJMOD}/PinHeader_2x06_P2.54mm_Horizontal.step"
+      (offset (xyz 2.5 -12.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -816,7 +856,7 @@
   )
 
   (footprint "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" (layer "F.Cu")
-    (tedit 5AE59B05) (tstamp 5b7004c0-970a-4c32-afa1-b9c30b457ebb)
+    (tedit 63B61E1F) (tstamp 5b7004c0-970a-4c32-afa1-b9c30b457ebb)
     (at 40.64 77.724 180)
     (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.3*2.2mm^2, Vishay, IM-1, http://www.vishay.com/docs/34030/im.pdf")
     (tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 5.3mm diameter 2.2mm Vishay IM-1")
@@ -858,6 +898,11 @@
     (pad "2" thru_hole oval (at 10.16 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 5 "Net-(C10-Pad1)") (pinfunction "2") (pintype "passive") (tstamp abea12a4-22aa-493e-b609-93e74c746b7c))
     (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -971,7 +1016,7 @@
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp 6ca7e4a5-7bde-4f72-a85f-5d11aea31a8e)
+    (tedit 63B61B9B) (tstamp 6ca7e4a5-7bde-4f72-a85f-5d11aea31a8e)
     (at 33.254 81.28 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -1009,6 +1054,11 @@
     (pad "2" thru_hole circle (at 2.5 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 0574e075-2594-4438-bbc0-8c8fc583653d))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1069,7 +1119,7 @@
   )
 
   (footprint "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" (layer "F.Cu")
-    (tedit 5AE59B05) (tstamp 750bc78c-9e0f-4eac-bb57-b7a331ff8fb6)
+    (tedit 63B61E3D) (tstamp 750bc78c-9e0f-4eac-bb57-b7a331ff8fb6)
     (at 48.26 74.168 90)
     (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.3*2.2mm^2, Vishay, IM-1, http://www.vishay.com/docs/34030/im.pdf")
     (tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 5.3mm diameter 2.2mm Vishay IM-1")
@@ -1115,10 +1165,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp 75e5f006-58b8-4795-a812-860b44523942)
+    (tedit 63B61C19) (tstamp 75e5f006-58b8-4795-a812-860b44523942)
     (at 57.912 65.024 -90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -1155,6 +1210,11 @@
     (pad "2" thru_hole circle (at 2.5 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 30bf9c09-7d25-4fe7-8c88-5e8cb6b43680))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1321,7 +1381,7 @@
   )
 
   (footprint "Package_DIP:DIP-8_W7.62mm" (layer "F.Cu")
-    (tedit 5A02E8C5) (tstamp aba21c1b-7164-4ac1-b852-2ab77931dfce)
+    (tedit 63B61CE7) (tstamp aba21c1b-7164-4ac1-b852-2ab77931dfce)
     (at 47.996 52.588 -90)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
@@ -1373,6 +1433,11 @@
     (pad "8" thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 12 "+3V3") (pinfunction "V+") (pintype "power_in") (tstamp 0150a597-9ca4-4081-88d2-6ff7d09ea1a2))
     (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/DIP-8-N6_W7.62mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1433,7 +1498,7 @@
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp b52f1af8-299f-4ede-92cb-8b540c7f07ef)
+    (tedit 63B61BF0) (tstamp b52f1af8-299f-4ede-92cb-8b540c7f07ef)
     (at 57.912 73.66 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -1474,10 +1539,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp c2abb88c-aba0-4079-831a-8856a9968f8e)
+    (tedit 63B61BD4) (tstamp c2abb88c-aba0-4079-831a-8856a9968f8e)
     (at 52.05 81.28 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3*2mm^2, Capacitor")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3mm width 2mm Capacitor")
@@ -1521,10 +1591,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp d7526292-2f27-48e0-8f61-3b9d71c8af0a)
+    (tedit 63B61BB4) (tstamp d7526292-2f27-48e0-8f61-3b9d71c8af0a)
     (at 30.988 73.894 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -1561,6 +1636,11 @@
     (pad "2" thru_hole circle (at 2.5 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp e28615f2-7821-4d76-be46-f3030a98c4f0))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1621,7 +1701,7 @@
   )
 
   (footprint "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" (layer "F.Cu")
-    (tedit 5AE59B05) (tstamp e1c39d3d-107f-47ac-a722-15091d16106c)
+    (tedit 63B61E11) (tstamp e1c39d3d-107f-47ac-a722-15091d16106c)
     (at 40.132 74.168 90)
     (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.3*2.2mm^2, Vishay, IM-1, http://www.vishay.com/docs/34030/im.pdf")
     (tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 5.3mm diameter 2.2mm Vishay IM-1")
@@ -1630,7 +1710,7 @@
     (property "Sheetname" "")
     (path "/34c6ac3a-bc5b-479f-b713-08da9a4d3801")
     (attr through_hole)
-    (fp_text reference "L4" (at 11.938 0 180) (layer "F.SilkS")
+    (fp_text reference "L4" (at 11.938 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d04e4a25-fea8-400a-b78a-19b8bbedb78b)
     )
@@ -1663,6 +1743,11 @@
     (pad "2" thru_hole oval (at 10.16 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 20 "Net-(C8-Pad1)") (pinfunction "2") (pintype "passive") (tstamp d6441129-9f99-4c29-8263-dd5ca075e046))
     (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1776,7 +1861,7 @@
   )
 
   (footprint "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" (layer "F.Cu")
-    (tedit 5AE59B05) (tstamp eecc54f1-353d-4bbc-bb3a-293df7de7d03)
+    (tedit 63B61E31) (tstamp eecc54f1-353d-4bbc-bb3a-293df7de7d03)
     (at 47.752 77.724)
     (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.3*2.2mm^2, Vishay, IM-1, http://www.vishay.com/docs/34030/im.pdf")
     (tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 5.3mm diameter 2.2mm Vishay IM-1")
@@ -1822,10 +1907,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
-    (tedit 5AE5139B) (tstamp f521aa2a-70ea-4bfa-a5f8-9973ac3bae4d)
+    (tedit 63B61C37) (tstamp f521aa2a-70ea-4bfa-a5f8-9973ac3bae4d)
     (at 30.988 54.61 -90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -1870,10 +1960,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" (layer "F.Cu")
-    (tedit 5AE50EF0) (tstamp fbe3d599-804b-4434-a0f7-d1228fca0003)
+    (tedit 63B61C04) (tstamp fbe3d599-804b-4434-a0f7-d1228fca0003)
     (at 44.196 64.516 -90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -1911,6 +2006,11 @@
     (pad "2" thru_hole circle (at 2.5 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp c901e045-695f-4c29-83cc-8cb0a4bb27cf))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/C_Disc_D5.0mm_W2.5mm_P2.50mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
